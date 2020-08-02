@@ -17,19 +17,19 @@ public class AtividadeGit {
 		StringBuffer numero2 = new StringBuffer();
 		StringBuffer escolhaOperacao = new StringBuffer();
 		
-		numero1.append("Calculadora de Soma e SubtraÃ§Ã£o");
+		numero1.append("Calculadora de Soma e Subtração");
 		numero1.append("\n");
-		numero1.append("Digite a primeiro nÃºmero");
+		numero1.append("Digite a primeiro número");
 	
-		numero2.append("Calculadora de Soma e SubtraÃ§Ã£o");
+		numero2.append("Calculadora de Soma e Subtração");
 		numero2.append("\n");
-		numero2.append("Digite o segundo nÃºmero");
+		numero2.append("Digite o segundo número");
 		
-		escolhaOperacao.append("Digite o nÃºmero que corresponde a operaÃ§Ã£o que vocÃª deseja realizar");
+		escolhaOperacao.append("Digite o número que corresponde a operação que você deseja realizar");
 		escolhaOperacao.append("\n\n");
 		escolhaOperacao.append("01 - Soma");
 		escolhaOperacao.append("\n");
-		escolhaOperacao.append("02 - SubtraÃ§Ã£o");
+		escolhaOperacao.append("02 - Subtração");
 	
 		num1 = jopDou(numero1.toString());
 		num2 = jopDou(numero2.toString());
@@ -45,7 +45,10 @@ public class AtividadeGit {
 			
 		} else {
 			
-			//Fazer o calculo da substraÃ§Ã£o
+			//Fazer o calculo da substração
+			resultado = num1 - num2;
+			JOptionPane.showMessageDialog(null, num1+" - "+num2+" = "+resultado);
+			
 
 		}
 
